@@ -55,7 +55,7 @@ class en(base):
     _currency_conversion = "General Currency Conversion"
 
     def decimal(self, data):
-        return data.replace(".", "").replace(",", ".")
+        return data.replace(",", ".")
 
 
 class de(base):
@@ -93,4 +93,4 @@ class de(base):
     _currency_conversion = "Allgemeine Währungsumrechnung"
 
     def decimal(self, data):
-        return data.replace(".", "").replace(",", ".")
+        return data.replace(".", ",").replace(",", ".")
