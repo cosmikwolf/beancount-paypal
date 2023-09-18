@@ -50,7 +50,7 @@ class en(base):
         "recipient": "To Email Address",
     }
 
-    _format = "%d/%m/%Y"
+    _format = "%m/%d/%Y"
     _from_checking = "Bank Deposit to PP Account "
     _currency_conversion = "General Currency Conversion"
 
@@ -88,7 +88,7 @@ class de(base):
         "recipient": "Empfänger E-Mail-Adresse",
     }
 
-    _format = "%m.%d.%Y"
+    _format = "%d.%m.%Y"
     _from_checking = "Bankgutschrift auf PayPal-Konto"
     _currency_conversion = "Allgemeine Währungsumrechnung"
 
