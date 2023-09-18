@@ -1,3 +1,4 @@
+## this fork has been changed to support US date formatted paypal CSV exports with %d/%m/%Y format
 # Beancount PayPal Importer
 
 `beancount-paypal` provides an Importer for converting CSV exports of PayPal into the beancount format.

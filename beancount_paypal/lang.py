@@ -88,7 +88,7 @@ class de(base):
         "recipient": "Empfänger E-Mail-Adresse",
     }
 
-    _format = "%d.%m.%Y"
+    _format = "%m.%d.%Y"
     _from_checking = "Bankgutschrift auf PayPal-Konto"
     _currency_conversion = "Allgemeine Währungsumrechnung"
 
