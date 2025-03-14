@@ -6,7 +6,7 @@
 ## Installation
 
 ```sh
-pip install git+https://github.com/nils-werner/beancount-paypal.git
+pip install git+https://github.com/cosmikwolf/beancount-paypal.git
 ```
 
 ## Usage
